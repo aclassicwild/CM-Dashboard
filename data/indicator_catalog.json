@@ -1,0 +1,38 @@
+[
+  {
+    "bucket": "Access & Participation",
+    "indicatorId": "dropout_girls",
+    "indicatorName": "Dropout Rate (Girls)",
+    "sourceSystem": "UDISE+",
+    "unit": "percent",
+    "directionality": "lower_is_better",
+    "dimensions": ["state", "district", "grade_6_8"]
+  },
+  {
+    "bucket": "Learning Outcomes",
+    "indicatorId": "nas_language",
+    "indicatorName": "NAS Language Proficiency",
+    "sourceSystem": "NAS",
+    "unit": "score",
+    "directionality": "higher_is_better",
+    "dimensions": ["state", "district", "grade_8"]
+  },
+  {
+    "bucket": "Infrastructure",
+    "indicatorId": "toilet_functional",
+    "indicatorName": "Functional Girls' Toilets",
+    "sourceSystem": "UDISE+",
+    "unit": "percent",
+    "directionality": "higher_is_better",
+    "dimensions": ["state", "district"]
+  },
+  {
+    "bucket": "Governance",
+    "indicatorId": "pgi_score",
+    "indicatorName": "PGI - Governance Score",
+    "sourceSystem": "PGI",
+    "unit": "score",
+    "directionality": "higher_is_better",
+    "dimensions": ["state", "district"]
+  }
+]

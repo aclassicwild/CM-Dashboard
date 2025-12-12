@@ -1,0 +1,21 @@
+{
+  "dropout_girls": {
+    "equation": "dropout = baseline + beta1*(teacher_vacancy) + beta2*(toilet_gap) - beta3*(scholarship_coverage)",
+    "coefficients": {
+      "baseline": 8.5,
+      "teacher_vacancy": 0.12,
+      "toilet_gap": 0.08,
+      "scholarship_coverage": 0.05
+    },
+    "bounds": {
+      "teacher_vacancy": [0, 30],
+      "toilet_gap": [0, 40],
+      "scholarship_coverage": [0, 100]
+    },
+    "defaultInputs": {
+      "teacher_vacancy": 12,
+      "toilet_gap": 18,
+      "scholarship_coverage": 55
+    }
+  }
+}
